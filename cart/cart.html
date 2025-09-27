@@ -1,0 +1,85 @@
+<!-- cart.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho - ANIMAWIS</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <!-- Barra de navegação -->
+    <nav class="nav-bar">
+        <!-- Logo -->
+        <img class="logo" src="../AWL.png" style="width: 80px;" />
+        <!-- Links de navegação -->
+        <div class="nav-links" id="nav-links">
+            <a class="nav-button" href="../loja.html">Home</a>
+            <a class="nav-button" href="../lojaup/lojaup.html">Loja</a>
+            <a class="nav-button" href="index.html#redes-sociais">Redes Sociais</a>
+            <a class="nav-button" href="index.html#cursos">Cursos</a>
+        </div>
+        
+        <!-- Ícone do carrinho -->
+        <div class="cart-icon" id="cart">
+            <img src="../cart.png" style="width: 30px; height: 30px;" alt="Carrinho">
+            <span id="cart-count">0</span>
+        </div>
+        <!-- Ícone do menu hamburger para dispositivos móveis -->
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>  
+    </nav>
+
+    <!-- Seção do Carrinho -->
+    <section class="carrinho" id="carrinho">
+        <h1>Seu Carrinho</h1>
+        <div id="cart-items">
+            <!-- Itens do carrinho serão adicionados aqui -->
+        </div>
+        <div><h1>Valor Total:<div id="subtotal"></div></h1></div>
+        <button id="finalizar-compra">Finalizar Compra</button>
+    </section>
+
+    <!-- Script JavaScript -->
+    <script src="../cart.js"></script>
+</body>
+
+<footer><div class="footer">
+    <div class="rodape">
+        <h1>Contatos</h1>
+        <ul>
+            <li><a href="#">whatsapp</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#"></a>#</li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="rodape">
+        <h1>Projetos</h1>
+        <ul>
+            <li><a href="#">whatsapp</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li>#</li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="rodape">
+        <h1>Parceiros</h1>
+        <ul>
+            <li><a href="#">whatsapp</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li>#</li>
+            <li></li>
+        </ul>
+    </div>
+</div>
+
+   <!--- <br><div class="end"><h1>obrigado volte sempre!</h1><br>
+    <img src="souza.png" style="width: 100px;"/>
+    </div> -->
+
+</footer>
+</html>

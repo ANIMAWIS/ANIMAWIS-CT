@@ -248,6 +248,13 @@ body{
     }
   
 }
+
+ .contact ul.c-i { 
+    flex-direction: column;
+    gap: 16px; 
+    align-items: 
+    center;
+ }
 /* baseado em estudos com flex froggy*/
 .footer{
     display: flex;
@@ -296,3 +303,30 @@ footer{
 .end{
  text-align: flex-end;   
 }
+.contact{
+    /* Contato */
+.contact ul.c-i { 
+    display: flex; 
+    gap: 32px; 
+    list-style: none; 
+    justify-content: center; 
+    margin-top: 16px; 
+}
+.contact ul.c-i li a { 
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    background: #222; 
+    border-radius: 20px; 
+    padding: 8px 16px; 
+    transition: background .2s; 
+}
+.contact ul.c-i li a:hover {
+    background: aqua; 
+    color: #222; }
+.contact ul.c-i img { 
+    width: 32px; 
+    height: 32px; 
+}
+
+

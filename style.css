@@ -303,7 +303,7 @@ footer{
 .end{
  text-align: flex-end;   
 }
-.contact{
+
     /* Contato */
 .contact ul.c-i { 
     display: flex; 
@@ -328,5 +328,6 @@ footer{
     width: 32px; 
     height: 32px; 
 }
+
 
 

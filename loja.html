@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <icon></icon>
-    <title>ANIMAWIS-HOME</title>
+    <title>ANIMAWIS-Home</title>
     
     <!-- Link para o arquivo CSS -->
     <link rel="stylesheet" href="style.css">
@@ -14,80 +14,75 @@
 <body>
     <!-- Barra de navegação -->
     <nav class="nav-bar">
-        <!-- Logo -->
-        <img class="logo" src="AWL.png" alt="ANIMAWIS-Um espaço criativo" style="width: 80px;" />
-        <!-- Links de navegação -->
-        <div class="nav-links" id="nav-links">
-            <a class="nav-button" href="#sobre2">Sobre</a>
-            <!--<a class="nav-button" href="lojaup/lojaup.html">Loja</a>-->
-            <a class="nav-button" href="https://umapenca.com/animawis/">Loja</a>
-            <a class="nav-button" href="#redes-sociais">Redes Sociais</a>
-            <a class="nav-button" href="curso/curso.html">Cursos</a>
-        </div>
-        <!-- Ícone do carrinho -->
-        <div class="cart-icon" id="cart">
-            <img src="cart.png" style="width: 30px; height: 30px;" alt="Carrinho">
-            <span id="cart-count">0</span>
-        </div>
-         <!-- Ícone do menu hamburger para dispositivos móveis -->
-        <div class="menu-toggle" id="mobile-menu">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+        <div class="nav-inner">
+            <!-- Logo -->
+            <img class="logo" src="animawiss.jpg" alt="ANIMAWIS - Um espaço criativo" />
+            <!-- Links de navegação -->
+            <div class="nav-links" id="nav-links">
+                <a class="nav-button" href="#sobre2">Sobre</a>
+                <!--<a class="nav-button" href="lojaup/lojaup.html">Loja</a>-->
+                <a class="nav-button" href="https://umapenca.com/animawis/">Loja</a>
+                <a class="nav-button" href="#redes-sociais">Redes Sociais</a>
+                <a class="nav-button" href="curso/curso.html">Cursos</a>
+            </div>
+            <!-- Ícone do menu hamburger para dispositivos móveis -->
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </div>
     </nav>
 
     <!-- Seção de Apresentação -->
-    <section class="apresent" id="sobre">
-        <img src="logo2c.png" style="width: 600px;" class="apresent-img">
+    <section class="hero" id="sobre">
+        <img src="logo2c.png" class="apresent-img" alt="Imagem principal ANIMAWIS">
         <h1>Bem Vindo a ANIMAWIS</h1>
         <h2>Um espaço criativo</h2>
-        
     </section>
 
-    <!-- Seção de Produtos -->
+    <!-- Seção de Serviços -->
     <section class="produtos" id="loja">
-        <!-- Produto 1 -->
+        <!-- Serviço 1 -->
         <div class="produto-item">
             <h1>Camiseta personalizada</h1>
             <h2>70R$</h2>
             <img src="estampa.png" alt="Camiseta da ANIMAWIS" class="produto-img">
-            <input type="number" value="1" min="1" class="produto-quantidade">
-            <button class="add-to-cart">Adicionar ao Carrinho</button>
+            <p class="produto-desc">Criação de estampas exclusivas e produção de camisetas personalizadas para eventos, marcas e presentes especiais.</p>
+            <a class="service-link" href="servico-camiseta.html">Ver serviço</a>
         </div>
-        <!-- Produto 2 -->
+        <!-- Serviço 2 -->
         <div class="produto-item">
-            <h1>Comission ilustrações personalizadas</h1>
+            <h1>Comission ilustrações</h1>
             <h2>75R$</h2>
-            <img src="per.jpg" alt="Camiseta Personalizada: otima para presentear quem você Ama!" class="produto-img">
-            <input type="number" value="1" min="1" class="produto-quantidade">
-            <button class="add-to-cart">Adicionar ao Carrinho</button>
+            <img src="per.jpg" alt="Ilustração personalizada" class="produto-img">
+            <p class="produto-desc">Ilustrações autorais e personalizadas, com estilo exclusivo para branding, presentes e coleções.</p>
+            <a class="service-link" href="servico-comission.html">Ver serviço</a>
         </div>
-         <!-- Produto 3 -->
+         <!-- Serviço 3 -->
          <div class="produto-item">
             <h1>Design Mouckup</h1>
             <h2>75R$</h2>
-            <img src="mouckup.png" alt="Camiseta Preta" class="produto-img">
-            <input type="number" value="1" min="1" class="produto-quantidade">
-            <button class="add-to-cart">Adicionar ao Carrinho</button>
+            <img src="mouckup.png" alt="Mockup de design" class="produto-img">
+            <p class="produto-desc">Apresentação profissional de seus projetos com mockups realistas para portfólio, redes sociais e vendas.</p>
+            <a class="service-link" href="servico-mockup.html">Ver serviço</a>
         </div>
-         <!-- Produto 4 -->
+         <!-- Serviço 4 -->
          <div class="produto-item">
-            <h1>Projetos Eletricos</h1>
+            <h1>Projetos elétricos</h1>
             <h2>75R$</h2>
-            <img src="eletrica.png" alt="Camiseta Preta" class="produto-img">
-            <input type="number" value="1" min="1" class="produto-quantidade">
-            <button class="add-to-cart">Adicionar ao Carrinho</button>
+            <img src="eletrica.png" alt="Projeto elétrico" class="produto-img">
+            <p class="produto-desc">Desenvolvimento de projetos elétricos e diagramas técnicos para residências, comércios e indústrias.</p>
+            <a class="service-link" href="servico-eletrica.html">Ver serviço</a>
         </div>
-         <!-- Produto 5 -->
+         <!-- Serviço 5 -->
          <div class="produto-item">
-            <h1>Criação de Blog ou Site</h1>
+            <h1>Criação de blog ou site</h1>
             <h2>75R$</h2>
-            <img src="dev.jpg" alt="Projeto WEB: Portifolio, blog, pagina de vendas e etc..." class="produto-img">
-            <input type="number" value="1" min="1" class="produto-quantidade">
-            <button class="add-to-cart">Adicionar ao Carrinho</button>
+            <img src="dev.jpg" alt="Desenvolvimento web" class="produto-img">
+            <p class="produto-desc">Sites e blogs profissionais, com layout responsivo, SEO básico e estrutura pronta para publicar.</p>
+            <a class="service-link" href="servico-site.html">Ver serviço</a>
         </div>
-        <!-- Adicione mais produtos conforme necessário -->
     </section>
     
 <section class="umapenca">
@@ -95,27 +90,31 @@
     <iframe src="https://umapenca.com/animawis/" style="width: 75%; height: 500px; display: flex; align-items: center; justify-content: center;"></iframe>
     </a>
 </section>
-<style>
-    .umapenca{
-        display: none;
-    }
-</style>
-    <section class="apresent" id="sobre2">
-        <img src="apoio.png"  class="apresent-img" style="width: 100%; height: 500px; display: flex; align-items: center; justify-content: center";>
-        <h1></h1>
+    <section class="about" id="sobre2">
+        <div> 
+        <img src="logo2c.png" style="width: 600px;" class="apresent-img">
+        <br>
         <h2>Um espaço criativo</h2>
         <h2>Um lugar para tornar ideias reais possiveis</h2>
+            <p>ANIMAWIS é um espaço criativo que tem como objetivo transformar ideias em realidade. Oferecemos uma variedade de serviços, desde a criação de camisetas personalizadas até projetos eletrônicos e desenvolvimento web. Nosso compromisso é proporcionar um ambiente onde a criatividade floresça e as ideias ganhem vida. Seja para presentear alguém especial ou para dar vida a um projeto pessoal, estamos aqui para ajudar a tornar suas ideias reais possíveis.</p>
+            <p>Na ANIMAWIS, acreditamos que a criatividade é a chave para o sucesso. Por isso, estamos sempre buscando novas formas de inovar e oferecer produtos e serviços de alta qualidade. Se você tem uma ideia em mente, não hesite em entrar em contato conosco. Estamos ansiosos para ajudar a transformar suas ideias em realidade!</p>
+            <p>Entre em contato conosco para saber mais sobre nossos serviços e como podemos ajudar a tornar suas ideias reais possíveis. Estamos aqui para ajudar a transformar seus sonhos em realidade!</p>
+        
+        </div>
+        <!--<img src="apoio.png"  class="apresent-img" style="width: 100%; height: 500px; display: flex; align-items: center; justify-content: center";>-->
+        
+       
         
     </section>
-      <section id="contato" id="redes-sociais"; class="contact">
+      <section id="contato" class="contact">
         <h2>Contato</h2>
         <p>Entre em contato escolha uma das opções abaixo:</p>
         <ul class="c-i">
         
           <li>
             <a href="https://www.instagram.com/animawis/" target="_blank" rel="noopener">
-              <img src="https://icons8.com/icon/32323/instagram" alt="Instagram" width="32" height="32">
-              <span>Istagram</span>
+              <img src="https://img.icons8.com/?size=100&id=32323&format=png&color=000000" alt="Instagram" width="32" height="32">
+              <span>Instagram</span>
             </a>
           </li>
           <li>
@@ -124,45 +123,44 @@
               <span>Whatsappp</span>
             </a>
           </li>
+          <li>
+            <a href="https://www.youtube.com/@animawis">
+              <img src="https://img.icons8.com/?size=100&id=19318&format=png&color=000000" alt="whatsapp" width="32" height="32">
+              <span>Youtube</span>
+            </a>
+          </li>
         </ul>
       </section>
 
 
     
-    <footer><div class="footer" id="redes-sociais">
-        <div class="rodape">
-            <h1>Contatos</h1>
-            <ul>
-                <li><a href="#">whatsapp</a></li>
-                <li><a href="https://www.instagram.com/animawis/">Instagram</a></li>
-                <li><a href="#"></a>#</li>
-                <li></li>
-            </ul>
+    <footer class="site-footer" id="redes-sociais">
+        <div class="footer">
+            <div class="footer-column">
+                <h2>Contatos</h2>
+                <ul>
+                    <li><a href="https://wa.me/5575992777643?text=Ol%C3%A1%2C%20Gostaria%20de%20fazer%20um%20Or%C3%A7amento!" target="_blank" rel="noopener">WhatsApp</a></li>
+                    <li><a href="https://www.instagram.com/animawis/" target="_blank" rel="noopener">Instagram</a></li>
+                    <li><a href="https://www.youtube.com/@animawis" target="_blank" rel="noopener">YouTube</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h2>Projetos</h2>
+                <ul>
+                    <li><a href="#">Mr. Cat</a></li>
+                    <li><a href="#">Vibe Listen</a></li>
+                    <li><a href="#">Design Mouckup</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h2>Parceiros</h2>
+                <ul>
+                    <li><a href="#">Umapença</a></li>
+                    <li><a href="#">Animawis Studio</a></li>
+                    <li><a href="#">Colaborações</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="rodape">
-            <h1>Projetos</h1>
-            <ul>
-                <li><a href="#"><img src="mr. cat.png"; style="width: 20px;">Mr.Cat</a></li>
-                <li><a href="#">Vibe Listen</a></li>
-                <li>#</li>
-                <li></li>
-            </ul>
-        </div>
-        <div class="rodape">
-            <h1>Parceiros</h1>
-            <ul>
-                <li><a href="#">whatsapp</a></li>
-                <li><a href="#">Instagram</a></li>
-                <li>#</li>
-                <li></li>
-            </ul>
-        </div>
-    </div>
-    
-       <!--- <br><div class="end"><h1>obrigado volte sempre!</h1><br>
-        <img src="souza.png" style="width: 100px;"/>
-        </div> -->
-    
     </footer>
 
     <!-- Script JavaScript -->
